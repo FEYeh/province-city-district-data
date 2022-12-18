@@ -1,0 +1,40 @@
+{
+	"name": "province-city-district-data",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "2022年,省市区,三级,代码,中华人民共和国行政区划代码,民政部门户网站,antd",
+	"main": "dist/index.cjs",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"import": "./dist/index.js",
+			"default": "./dist/index.cjs"
+		}
+	},
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup"
+	},
+	"devDependencies": {
+		"tsup": "6.4.0",
+		"typescript": "4.8.4",
+		"vite": "3.2.3"
+	},
+	"tsup": {
+		"entry": [
+			"src/index.ts"
+		],
+		"format": [
+			"esm",
+			"cjs"
+		],
+		"dts": {
+			"resolve": true
+		},
+		"splitting": true,
+		"clean": true
+	},
+}
