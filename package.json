@@ -20,8 +20,7 @@
 	},
 	"devDependencies": {
 		"tsup": "6.4.0",
-		"typescript": "4.8.4",
-		"vite": "3.2.3"
+		"typescript": "4.8.4"
 	},
 	"tsup": {
 		"entry": [
@@ -36,5 +35,5 @@
 		},
 		"splitting": true,
 		"clean": true
-	},
+	}
 }
