@@ -2,7 +2,7 @@
 	"name": "province-city-district-data",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "2022年,省市区,三级,代码,中华人民共和国行政区划代码,民政部门户网站,antd",
+	"description": "2022年,省市区,三级,中华人民共和国行政区划代码,民政部门户网站,antd,最新",
 	"main": "dist/index.cjs",
 	"exports": {
 		"./package.json": "./package.json",
